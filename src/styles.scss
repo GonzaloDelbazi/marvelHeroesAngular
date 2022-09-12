@@ -1,1 +1,37 @@
 /* You can add global styles to this file, and also import other style files */
+$primary: #00954F;
+$secondary: #00FF87;
+$bgPrimary: #353535;
+
+.primaryContainer {
+    position: relative;
+}
+
+.bgPage {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    display: flex;
+}
+
+html, body{
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+    background-color: $bgPrimary;
+  }
+
+.ng-sidebar {
+    padding: 0;
+    margin: 0;
+    position: relative !important;
+    background: $secondary;
+    height: 100%;
+    width: 20vw;
+}
+
+ng-sidebar-container {
+    height: 100vh;
+    width: 100vw;
+}
